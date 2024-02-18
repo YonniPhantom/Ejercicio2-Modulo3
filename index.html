@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Cola</title>
+</head>
+<body>
+    <div class="container">
+        <h3>1.- </h3>
+        <div>
+            <label for="queue">Cola Original:</label>
+            <input type="text" id="queue" placeholder="amarillo, rosa, rojo, verde, azul, negro, morado, blanco">
+        </div>
+        <button onclick="divideQueue()">Dividir Cola</button>
+        <div id="output"></div>
+
+        <h3>2.- </h3>
+        <div>
+            <label for="tickets">Cola de Tickets:</label>
+            <input type="text" id="tickets" placeholder="1, 2, 3, 4, 5, 6, 7">
+        </div>
+        <button onclick="removeUnauthorized()">Retirar Colados</button>
+        <div id="output2"></div>
+
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
